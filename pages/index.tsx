@@ -81,7 +81,7 @@ const StakePage = () => {
           <Text mt="1.6rem">Farm ID is not configured.</Text>
         ) : /** If there is farmerAccount variable, but no address, it means account isn't initialized */
         farmerAccount && !farmerAccount?.identity ? (
-          <Button variant="headingSpecialheyhaters"
+          <Button
             sx={{
               margin: "3.2rem 0",
             }}
