@@ -27,7 +27,7 @@ const theme: Theme = {
     primary: "#0BDBB3",
     primaryGradient: getGradient("#0BDBB3"),
     heading: "rgb(226, 217, 211)",
-    background2: "#1E1E24",
+    background2: "#0BDBB3",
     backgroundGradient: getGradient("rgb(4, 4, 3)"),
     // modes: {
     //   light: {
@@ -168,7 +168,7 @@ const theme: Theme = {
     totalpercentage: {
       marginTop: "5px",
       marginBottom: "15px",
-      background: "-webkit-linear-gradient(#03E1FF, #DC1FFF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;",
+      background: "-webkit-linear-gradient(#FCDAD4, #75A69C); -webkit-background-clip: text; -webkit-text-fill-color: transparent;",
       lineHeight: "body",
       fontSize: "4.2rem",
       fontFamily:
@@ -190,6 +190,11 @@ const theme: Theme = {
       fontFamily:
         'PressStart2P-Regular, monospace, AvertaStd-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
       fontWeight: 900,
+    },
+    headingSpecialbuildtable: {
+      fontSize: "2rem",
+      fontFamily:
+        'hey-haters, monospace, AvertaStd-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     },
     headingSpecialheyhaters: {
       fontFamily:
@@ -220,6 +225,12 @@ const theme: Theme = {
       fontSize: "1.4rem",
     },
     small: {
+      color: "text",
+      lineHeight: "body",
+      fontSize: "1.2rem",
+      fontFamily: 'hey-haters',
+    },
+    smallloading: {
       color: "text",
       lineHeight: "body",
       fontSize: "1.2rem",

@@ -10,6 +10,8 @@ export const reactTabsStyles = {
   ".react-tabs__tab": {
     display: "inline-block",
     border: "1px solid transparent",
+    borderColor: "primary",
+    borderRadius: "5px 5px 0 0",
     borderBottom: "none",
     bottom: "-1px",
     position: "relative",
@@ -20,7 +22,7 @@ export const reactTabsStyles = {
   ".react-tabs__tab--selected": {
     backgroundColor: "primary",
     borderColor: "background2",
-    color: "text",
+    color: "#202020",
     borderRadius: "5px 5px 0 0"
   },
   ".react-tabs__tab--disabled": { color: "GrayText", cursor: "default" },
