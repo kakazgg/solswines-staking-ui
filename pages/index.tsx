@@ -65,9 +65,9 @@ const StakePage = () => {
             variant="headingSpecialheyhaters"
           >
             <Text>Connect your wallet to send your swine on a mission!<br></br></Text>
-            <Text>Earn $COINK by staking your Swines. It's just that simple.<br></br><br></br></Text>
-<Text>Once claimed, you'll be able to use these utility tokens for the caswino, Marketplace, auction house and a whole slew of other features to come.<br></br><br></br></Text>
-<Text>SolSwines earn 300 $COINK a day.</Text>
+            <Text>Earn $COINK by staking your Swines. Its just that simple.<br></br><br></br></Text>
+<Text>Once claimed, youll be able to use these utility tokens for the caswino, Marketplace, auction house and a whole slew of other features to come.<br></br><br></br></Text>
+<Text>SolSwines earn 300 $COINK a day</Text>
           </Text>
         
 
@@ -81,13 +81,13 @@ const StakePage = () => {
           <Text mt="1.6rem">Farm ID is not configured.</Text>
         ) : /** If there is farmerAccount variable, but no address, it means account isn't initialized */
         farmerAccount && !farmerAccount?.identity ? (
-          <Button
+          <Button variant="headingSpecialheyhaters"
             sx={{
               margin: "3.2rem 0",
             }}
             onClick={handleInitStakingButtonClick}
           >
-            <Text variant= "headingSpecialbuildtable">Build Mission Table</Text>
+            <Text variant="headingSpecialheyhaters">Build Mission Table</Text>
           </Button>
         ) : (
           <>
@@ -204,7 +204,7 @@ const StakePage = () => {
                   {feedbackStatus ? (
                     <>
                       <LoadingIcon size="1.6rem" />
-                      {"  "} <Text variant="smallloading">{feedbackStatus}</Text>
+                      {"  "} <Text variant="small">{feedbackStatus}</Text>
                     </>
                   ) : (
                     ""
@@ -270,7 +270,7 @@ const StakePage = () => {
                               sx={{
                                 maxWidth: "16rem",
                                 "> img": {
-                                  border: "6px solid transparent",
+                                  border: "3px solid transparent",
                                   borderColor: isSelected
                                     ? "primary"
                                     : "transparent",
