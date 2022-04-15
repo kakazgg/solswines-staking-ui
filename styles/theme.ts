@@ -187,7 +187,7 @@ const theme: Theme = {
       color: "heading",
       background: "-webkit-linear-gradient(#FCDAD4, #75A69C); -webkit-background-clip: text; -webkit-text-fill-color: transparent;",
       lineHeight: "body",
-      fontSize: "4rem",
+      fontSize: "3rem",
       fontFamily:
         'hey-haters, AvertaStd-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
       fontWeight: 900,
@@ -224,7 +224,7 @@ const theme: Theme = {
     heading3inithome: {
       color: "heading",
       lineHeight: "body",
-      fontSize: "1.8rem",
+      fontSize: "2rem",
       fontWeight: 600,
     },
     heading3: {
