@@ -393,6 +393,14 @@ const getGradient = (rgb)=>{
             fontFamily: 'hey-haters, AvertaStd-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
             fontWeight: 900
         },
+        headingsolswinesearn: {
+            color: "heading",
+            background: "-webkit-linear-gradient(#FCDAD4, #75A69C); -webkit-background-clip: text; -webkit-text-fill-color: transparent;",
+            lineHeight: "body",
+            fontSize: "4.5rem",
+            fontFamily: 'hey-haters, AvertaStd-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+            fontWeight: 900
+        },
         headingSpecial: {
             color: "heading",
             lineHeight: "body",
@@ -407,11 +415,21 @@ const getGradient = (rgb)=>{
         headingSpecialheyhaters: {
             fontFamily: 'hey-haters, monospace, AvertaStd-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif'
         },
+        headingSpecialfarmerstats: {
+            fontFamily: 'hey-haters, monospace, AvertaStd-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+            fontSize: "1.8rem"
+        },
         heading2: {
             color: "heading",
             lineHeight: "body",
             fontSize: "1.9rem",
             fontFamily: "heading",
+            fontWeight: 600
+        },
+        heading3inithome: {
+            color: "heading",
+            lineHeight: "body",
+            fontSize: "2.2rem",
             fontWeight: 600
         },
         heading3: {

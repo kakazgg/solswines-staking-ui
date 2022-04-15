@@ -64,10 +64,9 @@ const StakePage = () => {
             }}
             variant="headingSpecialheyhaters"
           >
-            <Text>Connect your wallet to send your swine on a mission!<br></br></Text>
-            <Text>Earn $COINK by staking your Swines. Its just that simple.<br></br><br></br></Text>
-<Text>Once claimed, youll be able to use these utility tokens for the caswino, Marketplace, auction house and a whole slew of other features to come.<br></br><br></br></Text>
-<Text>SolSwines earn 300 $COINK a day</Text>
+            <Text variant="heading3inithome">Connect your wallet to send your swine on a mission!<br></br>Earn $COINK by staking your Swines. Its just that simple.<br></br><br></br></Text>
+<Text variant="heading3inithome">Once claimed, youll be able to use these utility tokens for the caswino, Marketplace, auction house and a whole slew of other features to come.<br></br><br></br></Text>
+<Text variant="headingsolswinesearn">SolSwines earn 300 $COINK a day</Text>
           </Text>
         
 
@@ -87,7 +86,7 @@ const StakePage = () => {
             }}
             onClick={handleInitStakingButtonClick}
           >
-            <Text variant="headingSpecialheyhaters">Build Mission Table</Text>
+            <Text variant="headingSpecialbuildtable">Build Mission Table</Text>
           </Button>
         ) : (
           <>
@@ -114,12 +113,12 @@ const StakePage = () => {
                       }}
                       src="images/gemtransparent.gif"
                     />
-                    <Text variant="headingSpecialheyhaters">
+                    <Text variant="headingSpecialfarmerstats">
                       Your Swines staked:&nbsp;
                       {farmerAccount?.gemsStaked.toNumber()}
                     </Text>
                   </Flex>
-                  <Text variant="headingSpecialheyhaters"
+                  <Text variant="headingSpecialfarmerstats"
                     sx={{
                       textAlign: "center",
                     }}
@@ -127,7 +126,7 @@ const StakePage = () => {
                     Mission Table status: <b>{isLocked ? "locked" : "unlocked"}</b>
                     <br />
                   </Text>
-                  <Text variant="headingSpecialheyhaters"
+                  <Text variant="headingSpecialfarmerstats"
                     sx={{
                       textAlign: "center",
                     }}
