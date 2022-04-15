@@ -29,6 +29,8 @@ function App(props: AppProps) {
     <ThemeProvider theme={defaultTheme}>
       <Head>
         {/** Load font styles directly on the document to prevent flashes */}
+        <title>Swine Missions</title>
+        <meta name="description" content="Send your SolSwine on a mission to earn $COINK!"></meta>
         <link href="/fonts/fonts.css" rel="stylesheet" />
       </Head>
 

@@ -536,11 +536,20 @@ function App(props) {
     return /*#__PURE__*/ (0,jsx_runtime_namespaceObject.jsxs)(external_theme_ui_.ThemeProvider, {
         theme: styles_theme,
         children: [
-            /*#__PURE__*/ jsx_runtime_namespaceObject.jsx((head_default()), {
-                children: /*#__PURE__*/ jsx_runtime_namespaceObject.jsx("link", {
-                    href: "/fonts/fonts.css",
-                    rel: "stylesheet"
-                })
+            /*#__PURE__*/ (0,jsx_runtime_namespaceObject.jsxs)((head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_namespaceObject.jsx("title", {
+                        children: "Swine Missions"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_namespaceObject.jsx("meta", {
+                        name: "description",
+                        content: "Send your SolSwine on a mission to earn $COINK!"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_namespaceObject.jsx("link", {
+                        href: "/fonts/fonts.css",
+                        rel: "stylesheet"
+                    })
+                ]
             }),
             /*#__PURE__*/ jsx_runtime_namespaceObject.jsx(WalletProvider, {
                 children: /*#__PURE__*/ jsx_runtime_namespaceObject.jsx(Component, {
