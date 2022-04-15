@@ -397,7 +397,7 @@ const getGradient = (rgb)=>{
             color: "heading",
             background: "-webkit-linear-gradient(#FCDAD4, #75A69C); -webkit-background-clip: text; -webkit-text-fill-color: transparent;",
             lineHeight: "body",
-            fontSize: "4.5rem",
+            fontSize: "4rem",
             fontFamily: 'hey-haters, AvertaStd-Bold, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
             fontWeight: 900
         },
@@ -429,7 +429,7 @@ const getGradient = (rgb)=>{
         heading3inithome: {
             color: "heading",
             lineHeight: "body",
-            fontSize: "2.2rem",
+            fontSize: "1.8rem",
             fontWeight: 600
         },
         heading3: {
