@@ -224,7 +224,7 @@ const theme: Theme = {
     heading3inithome: {
       color: "heading",
       lineHeight: "body",
-      fontSize: "2rem",
+      fontSize: "1.6rem",
       fontWeight: 600,
     },
     heading3: {
